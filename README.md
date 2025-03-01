@@ -1,13 +1,29 @@
-# React + Vite
+# React Form App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React form application that allows users to input their name, quantity, and a comment. The app displays the entered values below the input fields.
 
-Currently, two official plugins are available:
+## Features
+- Input fields for name, quantity, and comment
+- Real-time display of the entered values
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/react-form-app.git
+# Navigate to the project directory:
+cd react-form-app
 
-## Expanding the ESLint configuration
+# Install the dependencies:
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Events-Handler
+# Usage
+Start the development server:
+npm start
+
+# Open your browser and navigate to http://localhost:3000 to see the app in action
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
